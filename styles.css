@@ -1,0 +1,29 @@
+
+:root{
+    --color: #e6007e;
+    --txt: rgb(185, 185, 185)
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: var(--txt);
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vw;
+    width: 100vw;
+}
+
+.img {
+    background-image: url(./iceMoon.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
